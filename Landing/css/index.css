@@ -173,8 +173,8 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-.button:hover {
-  background:  rgb(4, 4, 169);
+.button-send:hover {
+  background:  rgb(4, 4, 103);
   cursor: pointer;
 }
 .event-block {
@@ -291,7 +291,7 @@ body {
   color: rgb(0 0 102);
 }
 .question-button {
-  background:  rgb(2, 2, 160);
+  background: blue;
   color: white;
   margin: 40px 0 59px 0;
   border-radius: 8px;
@@ -304,7 +304,7 @@ body {
   font-weight: bold;
 }
 .question-button:hover {
-  background:  rgb(4, 4, 134);
+  background:  rgb(4, 4, 103);
   cursor: pointer;
 }
 .footer-container {
