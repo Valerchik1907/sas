@@ -333,6 +333,11 @@ body {
   margin: 0 10px;
   cursor: pointer;
 }
+.button-title:hover {
+  text-decoration: underline;
+  background:  rgb(3, 3, 133);
+  cursor: pointer;
+}
 
 .social-link-container {
   width: 170px;
@@ -375,4 +380,79 @@ body {
 .star-alliance {
   text-transform: uppercase;
   font-size: 11px;
+}
+@media only screen and (max-width: 768px) {
+  .landing-container {
+    overflow-x: hidden;
+  }
+  .title-journeys {
+    font-size: 30px;
+  }
+  .input-box {
+    width: 270px;
+  }
+  .input {
+    padding-left: 10px
+  }
+  .check-box-container {
+    display: initial;
+    width: 260px;
+  }
+  .description-block {
+    padding: 10px 0 10px 5px;
+  }
+  .description-text {
+    width: 270px;
+  }
+  .event-block {
+    flex-direction: column;
+    height: 100%;
+  }
+  .img-event {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  .speakers-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .speakers-block {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .speakers-title {
+    left: 20px;
+    position: relative;
+  }
+  .first-speakers{
+    width: 300px;
+    margin-left: 30px;
+    margin-top:65px
+  }
+  .second-speakers{
+    width: 300px;
+    margin-left: 30px;
+  }
+  .question-box {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .question-text {
+    width: 280px;
+  }
+  .first-footer {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .button-container{
+    flex-wrap: wrap;
+    width: 0;
+  }
+  .social-link-container {
+    margin-right: 10px;
+  }
 }
